@@ -1,4 +1,3 @@
-import amqp from 'amqplib'
 import rabbitmqClient from '~/libs/rabbitmqClient'
 
 const QUEUE_NAME = 'fibonacci-queue'
