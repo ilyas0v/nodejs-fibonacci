@@ -1,5 +1,5 @@
 ## Run project inside docker container
-
+copy .env file: `cp .env.example .env` \
 build the container image:  `docker-compose build` \
 then run the built image: `docker-compose up` \
 the app should be online on : `http://localhost:3000/`
